@@ -1,8 +1,16 @@
 # Startup Failure Diagnosis Skill
 
-Diagnose startup ideas with failed-startup antipatterns inspired by Loot Drop's public failure research.
+Agent skill for startup idea validation, PMF risk analysis, startup autopsy, CAC/LTV diagnosis, unit economics review, and founder kill-criteria design.
 
-This is a Cursor/agent skill for founders, indie hackers, product builders, and investors who want a sharper answer than "validate the market." It turns a startup idea into a failure-chain diagnosis, risk scorecard, validation plan, and kill criteria.
+中文版本: [README.zh-CN.md](README.zh-CN.md)
+
+This open-source skill distills patterns from **1100+ failed startup case studies** and Loot Drop's public failure research into a practical diagnostic workflow. It helps founders, indie hackers, product builders, and investors get a sharper answer than "validate the market."
+
+Instead of generic startup advice, it turns a startup idea into a failure-chain diagnosis, risk scorecard, validation plan, and kill criteria.
+
+## Keywords
+
+`startup failure diagnosis`, `startup idea validation`, `PMF risk`, `product-market fit`, `CAC LTV`, `unit economics`, `startup autopsy`, `failed startup case studies`, `founder tools`, `indie hacker tools`, `Cursor skill`, `agent skill`, `AI startup analysis`, `创业失败诊断`, `创业想法验证`, `商业模式诊断`
 
 ## What It Does
 
@@ -15,9 +23,18 @@ This is a Cursor/agent skill for founders, indie hackers, product builders, and 
 
 ## Why This Exists
 
-Most startup advice is too generic. Loot Drop's public pages summarize 1,600+ failed startups and highlight recurring failure modes such as no market need, running out of cash, competition, product/tech failure, legal/regulatory issues, team conflict, and unit economics.
+Most startup advice is too generic. This skill is designed around patterns extracted from **1100+ failed startup case studies**, with additional inspiration from Loot Drop's public pages and learning framework. These sources highlight recurring failure modes such as no market need, running out of cash, competition, product/tech failure, legal/regulatory issues, team conflict, and unit economics.
 
 This skill distills those patterns into a practical diagnostic workflow. It does not treat any individual failure case as verified ground truth. Use it as a risk lens, then validate with current customer evidence, pricing tests, usage data, and unit economics.
+
+## Who Should Use It
+
+- Founders testing an early startup idea.
+- Indie hackers deciding whether to build an MVP.
+- Product managers reviewing a new product bet.
+- Investors doing quick pre-mortem analysis.
+- Builders turning failed startup ideas into modern rebuild plans.
+- Agents that need a repeatable startup risk analysis workflow.
 
 Sources:
 
@@ -70,6 +87,16 @@ Return:
 7. Kill criteria
 8. Rebuild angle
 ```
+
+## Common Use Cases
+
+- "Will this startup idea fail?"
+- "Analyze this MVP for PMF risk."
+- "Review this pitch deck like a startup autopsy."
+- "Find the CAC/LTV and unit economics risks."
+- "What would kill this idea in the next 6 months?"
+- "Create 7-day validation experiments before I build."
+- "Should I continue, pivot, or kill this project?"
 
 ## Example
 
