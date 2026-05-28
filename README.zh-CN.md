@@ -16,6 +16,26 @@
 达到什么条件就应该停止或转向？
 ```
 
+## Demo
+
+先看一个真实示例：
+
+- [中文 demo：开源 skill + 线上付费版](demos/conversation-5a314bdf.zh-CN.md)
+- [English demo: open-source skill + paid online version](demos/conversation-5a314bdf.md)
+
+输入：
+
+```text
+我想把这个 skill 开源，然后做一个线上版本收费。首次免费，后续按次收费。
+```
+
+简短结果：
+
+```text
+最可能失败链条：
+No Market Need -> Distribution Vacuum -> Competition / Commodity Trap -> Unit Economics
+```
+
 ## GitHub SEO Keywords
 
 `创业失败诊断`, `创业想法验证`, `PMF 风险`, `产品市场匹配`, `商业模式诊断`, `CAC LTV`, `单位经济模型`, `创业尸检`, `失败创业案例`, `独立开发者工具`, `Cursor skill`, `Agent skill`, `startup failure diagnosis`, `startup idea validation`, `startup autopsy`
@@ -139,7 +159,7 @@ No Market Need -> Distribution Vacuum -> Competition / Commodity Trap -> Unit Ec
 如果用户可以复制开源 skill 在本地直接使用，线上付费版必须提供比“调用一次 AI”更强的价值边界。
 ```
 
-完整 demo 见：[demos/conversation-5a314bdf.md](demos/conversation-5a314bdf.md)
+完整 demo 见：[中文](demos/conversation-5a314bdf.zh-CN.md) 或 [English](demos/conversation-5a314bdf.md)。
 
 ## 诊断输出格式
 

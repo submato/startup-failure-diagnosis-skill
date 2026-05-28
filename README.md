@@ -8,6 +8,27 @@ This open-source skill distills patterns from **1100+ failed startup case studie
 
 Instead of generic startup advice, it turns a startup idea into a failure-chain diagnosis, risk scorecard, validation plan, and kill criteria.
 
+## Demo
+
+See how the skill evaluates a real product idea:
+
+- [English demo: open-source skill + paid online version](demos/conversation-5a314bdf.md)
+- [中文 demo：开源 skill + 线上付费版](demos/conversation-5a314bdf.zh-CN.md)
+
+Demo input:
+
+```text
+Open-source this skill and build a paid online version.
+First run is free, then users pay per diagnosis.
+```
+
+Short result:
+
+```text
+Most likely failure chain:
+No Market Need -> Distribution Vacuum -> Competition / Commodity Trap -> Unit Economics
+```
+
 ## Keywords
 
 `startup failure diagnosis`, `startup idea validation`, `PMF risk`, `product-market fit`, `CAC LTV`, `unit economics`, `startup autopsy`, `failed startup case studies`, `founder tools`, `indie hacker tools`, `Cursor skill`, `agent skill`, `AI startup analysis`, `创业失败诊断`, `创业想法验证`, `商业模式诊断`
@@ -113,7 +134,7 @@ Core red flag:
 If users can copy the open-source skill and run it locally, the paid online version needs a stronger value boundary than "call the AI once."
 ```
 
-See the full demo in [demos/conversation-5a314bdf.md](demos/conversation-5a314bdf.md).
+See the full demo in [English](demos/conversation-5a314bdf.md) or [简体中文](demos/conversation-5a314bdf.zh-CN.md).
 
 ## Output Format
 
