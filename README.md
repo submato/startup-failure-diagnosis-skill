@@ -2,9 +2,9 @@
 
 Agent skill for startup idea validation, PMF risk analysis, startup autopsy, CAC/LTV diagnosis, unit economics review, and founder kill-criteria design.
 
-中文版本: [README.zh-CN.md](README.zh-CN.md)
+**Languages**: English | [简体中文](README.zh-CN.md)
 
-This open-source skill distills patterns from **1100+ failed startup case studies** and Loot Drop's public failure research into a practical diagnostic workflow. It helps founders, indie hackers, product builders, and investors get a sharper answer than "validate the market."
+This open-source skill distills patterns from **1100+ failed startup case studies** and public startup post-mortem research into a practical diagnostic workflow. It helps founders, indie hackers, product builders, and investors get a sharper answer than "validate the market."
 
 Instead of generic startup advice, it turns a startup idea into a failure-chain diagnosis, risk scorecard, validation plan, and kill criteria.
 
@@ -23,7 +23,7 @@ Instead of generic startup advice, it turns a startup idea into a failure-chain 
 
 ## Why This Exists
 
-Most startup advice is too generic. This skill is designed around patterns extracted from **1100+ failed startup case studies**, with additional inspiration from Loot Drop's public pages and learning framework. These sources highlight recurring failure modes such as no market need, running out of cash, competition, product/tech failure, legal/regulatory issues, team conflict, and unit economics.
+Most startup advice is too generic. This skill is designed around patterns extracted from **1100+ failed startup case studies** and public startup post-mortem research. These sources highlight recurring failure modes such as no market need, running out of cash, competition, product/tech failure, legal/regulatory issues, team conflict, and unit economics.
 
 This skill distills those patterns into a practical diagnostic workflow. It does not treat any individual failure case as verified ground truth. Use it as a risk lens, then validate with current customer evidence, pricing tests, usage data, and unit economics.
 
@@ -35,13 +35,6 @@ This skill distills those patterns into a practical diagnostic workflow. It does
 - Investors doing quick pre-mortem analysis.
 - Builders turning failed startup ideas into modern rebuild plans.
 - Agents that need a repeatable startup risk analysis workflow.
-
-Sources:
-
-- [Loot Drop FAQ](https://www.loot-drop.io/faq)
-- [Loot Drop Learning Framework](https://www.loot-drop.io/why-they-fail)
-- [Loot Drop Insights](https://www.loot-drop.io/insights)
-- [Loot Drop AI Deep Dive](https://www.loot-drop.io/deep-dive/ai)
 
 ## Install
 

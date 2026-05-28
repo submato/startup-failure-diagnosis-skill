@@ -1,6 +1,6 @@
 ---
 name: startup-failure-diagnosis
-description: Diagnoses startup ideas, MVPs, pitch decks, rebuild plans, and business models using antipatterns distilled from 1100+ failed startup case studies and Loot Drop research. Use when evaluating startup ideas, PMF risk, startup failure risk, CAC/LTV, unit economics, platform dependency, competition, regulatory risk, 创业想法验证, or 创业失败诊断.
+description: Diagnoses startup ideas, MVPs, pitch decks, rebuild plans, and business models using antipatterns distilled from 1100+ failed startup case studies and public startup post-mortem research. Use when evaluating startup ideas, PMF risk, startup failure risk, CAC/LTV, unit economics, platform dependency, competition, regulatory risk, 创业想法验证, or 创业失败诊断.
 version: "0.1.0"
 license: Apache-2.0
 allowed-tools: WebFetch, WebSearch
@@ -10,7 +10,6 @@ metadata:
   tags:
     - startup
     - failure-analysis
-    - loot-drop
     - business-model
     - pmf
     - unit-economics
@@ -22,16 +21,11 @@ metadata:
     - 创业想法验证
     - 商业模式诊断
     - PMF风险
-  sources:
-    - "https://www.loot-drop.io/faq"
-    - "https://www.loot-drop.io/why-they-fail"
-    - "https://www.loot-drop.io/insights"
-    - "https://www.loot-drop.io/deep-dive/ai"
 ---
 
 # Startup Failure Diagnosis
 
-This skill turns patterns distilled from 1100+ failed startup case studies into a practical diagnostic workflow. It is inspired by Loot Drop's database and learning framework, but it does not treat any single case as absolute truth. Use the patterns as risk lenses, then demand current evidence from customers, pricing tests, usage data, and unit economics.
+This skill turns patterns distilled from 1100+ failed startup case studies into a practical diagnostic workflow. It is inspired by public startup post-mortem research, but it does not treat any single case as absolute truth. Use the patterns as risk lenses, then demand current evidence from customers, pricing tests, usage data, and unit economics.
 
 ## What This Skill Does
 
@@ -42,7 +36,7 @@ This skill turns patterns distilled from 1100+ failed startup case studies into 
 
 ## Source Model
 
-Loot Drop describes 7 core failure antipatterns from its failed-startup research:
+The skill uses 7 core failure antipatterns commonly found in startup post-mortems:
 
 - No Market Need
 - Ran Out of Cash
@@ -52,7 +46,7 @@ Loot Drop describes 7 core failure antipatterns from its failed-startup research
 - Legal/Regulatory Issues
 - Unit Economics
 
-Loot Drop's meta-study also emphasizes that startups rarely fail for one reason. Product problems, competition, pricing/unit economics, focus drift, marketing/distribution, cash management, operational scalability, regulation, PMF, and team conflict compound into a failure chain.
+Startup failures rarely come from one reason. Product problems, competition, pricing/unit economics, focus drift, marketing/distribution, cash management, operational scalability, regulation, PMF, and team conflict compound into a failure chain.
 
 For the detailed diagnostic library, read [antipatterns.md](antipatterns.md). For examples, read [examples.md](examples.md).
 
@@ -174,4 +168,4 @@ When turning a failed idea into a new opportunity, do not simply "do it with AI.
 - Name the riskiest assumption, not just a list of generic startup advice.
 - Separate "market wants this problem solved" from "this company can solve it profitably."
 - Use confidence labels: High, Medium, Low.
-- Never present Loot Drop's AI-assisted summaries as verified ground truth. Treat them as pattern evidence and ask for current validation.
+- Never present public post-mortem summaries as verified ground truth. Treat them as pattern evidence and ask for current validation.
